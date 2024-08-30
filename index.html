@@ -381,7 +381,17 @@
             </div>
         </div>
     </section>
-  
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.1/js/bootstrap.min.js"></script>
+    <script>
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            var myCarousel = document.getElementById('carouselExampleInterval');
+            var carousel = new bootstrap.Carousel(myCarousel, {
+                interval: 2000
+            });
+        });
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
 
