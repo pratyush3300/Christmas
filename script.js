@@ -10,7 +10,7 @@ window.onscroll = function () {
     document.addEventListener('DOMContentLoaded', function() {
             var myCarousel = document.getElementById('carouselExampleInterval');
             var carousel = new bootstrap.Carousel(myCarousel, {
-                interval: 1600
+                interval: 1000
             });
         });
 // nav hide  
